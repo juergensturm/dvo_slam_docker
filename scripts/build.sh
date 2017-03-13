@@ -19,7 +19,7 @@ catkin_make
 source $WS/devel/setup.bash
 
 cd $WS_SRC 
-git clone -b $ROS_DISTRO-devel https://github.com/tum-vision/dvo_slam.git
+git clone -b $ROS_DISTRO-devel https://github.com/juergensturm/dvo_slam.git
 
 mkdir $WS_SRC/dvo_slam/dvo_benchmark/output/
 
